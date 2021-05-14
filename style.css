@@ -1,0 +1,71 @@
+/* google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: 'Raleway',sans-serif;
+   line-height: 1.6;
+   color: #fff;
+   background-color:#575791 ;
+} 
+#cont{
+  max-width: 750px;
+  margin: 4rem auto;
+  padding: .6rem;  
+}
+#title{
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 1.2;
+    padding:.6rem;
+
+}
+#description{
+    font-size:1.1rem;
+    text-align: center;
+    padding:.3rem;
+    margin-bottom:2rem;
+}
+#survey-form{
+    background-color:#222242;
+    padding: 3rem 2.5rem;
+    border-radius: 7px;
+
+}
+
+.f-g{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.f-g label{
+    display: block;
+    margin: .5rem;
+}
+#name,
+#email,
+#age,
+#dropdown-selector-role,
+#favorite-selector,
+#comments,
+#submit{
+    width:100%;
+    padding: .6rem;
+    border-radius: 6px;
+    font-size:1.1rem ;
+}
+.f-g textarea{
+    height: 7rem;
+    font-size: 1.1rem;
+}
+#submit{
+    background-color: #37AF65;
+    color:white;
+    padding: .7rem;
+    font-size: 1.15rem;
+}
+#creator{
+    text-align: center;
+    color: turquoise;
+}

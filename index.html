@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+ <body>
+    <div id="cont">
+        <header id="main-header">
+          <h1 id="title">freeCodeCamp Survey Form</h1>
+          <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+        </header>
+        <form id="survey-form">
+          <div class="f-g">  
+              <label for="name">Name</label>
+              <input type="text" name="name"id="name" placeholder="enter your name"></input>
+          </div>
+          <div class="f-g">  
+                <label for="Email">Email</label>
+                <input type="Email" name="email"id="email" placeholder="Enter your Email"></input>
+          </div>
+          <div class="f-g">  
+                <label for="age">Age<span>(optional)</span></label>
+                <input type="number" name="age"id="age" placeholder="age"></input>
+          </div>
+                <div class="f-g">  
+                    <label for="dropdown-selector-role">Which option best describes your current role?</label>
+                    <select name="dropdown-selector-role" id="dropdown-selector-role">
+                    <option value="">Select your current role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full time job</option>
+                    <option value="job">Full time learner</option>
+                    <option value="no">Prefer not to say</option>
+                    <option value="others">others</option>
+                    </select>
+                </div>
+                <label for="Would you recommend freeCodeCamp to a friend?" id="Would you recommend freeCodeCamp to a friend?"> <b>Would you recommend freeCodeCamp to a friend?</b> </label>
+                <br>
+                  <input id="choice" type="radio" name="C-123" value="Defenetily">
+                  <label for="choice"> Defenetily</label>
+                <br>
+                  <input id="choice" type="radio" name="C-123" value="Maybe">
+                  <label for="choice"> Maybe </label>
+                <br>
+                  <input id="choice" type="radio" name="C-123" value="Not-sure">
+                  <label for="choice"> Not-sure </label>
+                <br>
+                <br>
+                                           
+                <label for="features"> <b>Add features:</b></label>
+                 <br>
+                        
+                        
+                    
+                        <div class="f-g">  
+                            <label for="favorite-selector">What is your favorite feature of freeCodeCamp?</label>
+                            <select name="favorite-selector" id="favorite-selector">
+                                 <option value="">select a option</option>
+                                 <option value="challenges">challenges</option>
+                                 <option value="projects">projects</option>
+                                 <option value="community">community</option>
+                                 <option value="open-source">open-source</option>
+                            </select> 
+                        </div>
+         <div class="f-g">  
+            <label for="improved-selector">What would you like to se improved<span>(check all that apply)</span></label>
+            <input type="checkbox">front end projects<br>
+            <input type="checkbox">Back-end Projects<br>
+            <input type="checkbox">Data Visualization<br>
+            <input type="checkbox">Challenges<br>
+            <input type="checkbox">Open Source Community<br>
+            <input type="checkbox">Gitter help rooms<br>
+            <input type="checkbox">Videos<br>
+            <input type="checkbox">Wiki<br>
+            <input type="checkbox">Forum<br>
+            <input type="checkbox">Additional Courses<br>
+         </div>
+          <div class="f-g">  
+                <label for="comments">Any comments or suggestions? </label>
+                <textarea name="commmets" id="comments"placeholder="Enter your comments here" ></textarea>
+          </div>
+           <input type="submit" id="submit"value="submit" >
+        </form>
+        <p id="creator">This survey form is created by <strong>Anubhav veram</strong></p> 
+    </div>
+</body>
+</html>
